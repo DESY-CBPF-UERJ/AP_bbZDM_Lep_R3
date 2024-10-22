@@ -434,8 +434,6 @@ class HEPHero : public HEPBase {
         Float_t LowPtElectron_scEtOverPt[100];
         Float_t LowPtElectron_sieie[100];
         Float_t LowPtElectron_unbiased[100];
-        */
-
 
         Float_t GenMET_phi;
         Float_t GenMET_pt;
@@ -1394,7 +1392,7 @@ class HEPHero : public HEPBase {
         Bool_t HLT_PPSMaxTracksPerArm1;
         Bool_t HLT_PPSMaxTracksPerRP4;
         Bool_t HLTriggerFinalPath;
-
+        */
         
 };
 
