@@ -1,0 +1,6 @@
+Data-taking     Year    HIPM    Luminosity[pb-1]    Unc_total[%]    Unc_uncorr[%]   Unc_fullcorr[%]
+2022_CD         22      0       7980.4              0               0               0
+2022_EFG        22      1       26671.7             0               0               0
+2023_C          23      0       17794               0               0               0
+2023_D          23      1       9451                0               0               0
+> > > > > > > https://twiki.cern.ch/twiki/bin/view/CMS/TWikiLUM
