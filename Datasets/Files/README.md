@@ -4,6 +4,7 @@
 
 * `The production of the text files is done in the lxplus.`
 * `The list of datasets used in the analysis are defined inside the python scripts below.`
+* `To run the python scripts below, you can NOT make the hepenv setup.`
 
 # Get permission to access datasets
 
@@ -16,19 +17,19 @@ voms-proxy-init --voms cms
 
 Check if datsets of the analysis are available for a campaign containing a specific **tag** in its name:  
 ```bash
-python check_data.py -t tag
-python check_mc.py -t tag
+python3 check_data.py -t tag
+python3 check_mc.py -t tag
 ```
 
 # Get dataset paths
 
 The text files are produced running the scripts below :  
 ```bash
-python get_signal.py -p period -v version
-python get_bkg.py -p period -v version
-python get_data_16.py -v version
-python get_data_17.py -v version
-python get_data_18.py -v version
+python3 get_signal.py -p period -v version
+python3 get_bkg.py -p period -v version
+python3 get_data_16.py -v version
+python3 get_data_17.py -v version
+python3 get_data_18.py -v version
 ```
 versions = 9, 12  
 A **period** consists of one **year** plus a **dti** (data taking interval) in the format **dti_year**:  
